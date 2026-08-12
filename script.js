@@ -193,6 +193,18 @@ const perguntas = [
  pergunta: "Quem traiu Jesus?",
  opcoes: ["Pedro", "Judas", "João", "Mateus"],
  correta: 1
+},
+
+{
+ pergunta: "Qual e o principal motivo das poluições?",
+ opcoes: ["lixo e queimas", "os cfcs", "o sol", "detritos espaciais"],
+ correta: 0
+},
+
+{
+ pergunta: "Qual e a estrela mais velha do universo",
+ opcoes: ["estrela de matusalen", "beteujuise", "estiferson218", "um quasar"],
+ correta: 0
 }
  
 ];
