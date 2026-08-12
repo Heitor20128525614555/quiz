@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Quiz de Conhecimentos Gerais</title>
+  
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  
+  <header>
+    
+    <h1>🧠 Quiz de Conhecimentos Gerais 🧠</h1>
+    
+  </header>
+  
+  <main>
+    
+    <!-- TELA INICIAL -->
+    
+    <section id="tela-inicial">
+      
+      <h2>Bem-vindo!</h2>
+      
+      <p>🧠Teste seus conhecimentos com perguntas de múltipla escolha.🧠</p>
+      
+      <button id="btnComecar">
+        Começar Quiz
+      </button>
+      
+      <p class="creditos">
+        Desenvolvido por Kleyton e Heitor
+      </p>
+      
+    </section>
+    
+    <!-- TELA DO QUIZ -->
+    
+    <section id="tela-quiz" style="display:none;">
+      
+      <p id="contador">
+        Pergunta 1 de 20
+      </p>
+      
+      <div id="barra">
+        
+        <div id="progresso"></div>
+        
+      </div>
+      
+      <h2 id="pergunta"></h2>
+      
+      <div id="opcoes">
+        
+        <button class="opcao" id="opcao0"></button>
+        
+        <button class="opcao" id="opcao1"></button>
+        
+        <button class="opcao" id="opcao2"></button>
+        
+        <button class="opcao" id="opcao3"></button>
+        
+      </div>
+      
+      <p id="mensagem"></p>
+      
+      <p class="pontuacao">
+        
+        ⭐ Pontos:
+        <span id="pontos">0</span>
+        
+      </p>
+      
+    </section>
+    
+    <!-- TELA FINAL -->
+    
+    <section id="tela-final" style="display:none;">
+      
+      <h2>🎉 Parabéns!</h2>
+      
+      <p id="resultadoFinal"></p>
+      
+      <div class="resultado">
+        
+        <p>
+          ✅ Acertos:
+          <span id="acertosFinal">0</span>
+        </p>
+        
+        <p>
+          ❌ Erros:
+          <span id="errosFinal">0</span>
+        </p>
+        
+      </div>
+      
+      <button id="btnReiniciar">
+      
+        Jogar Novamente
+        
+      </button>
+      
+    </section>
+    
+  </main>
+  
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
